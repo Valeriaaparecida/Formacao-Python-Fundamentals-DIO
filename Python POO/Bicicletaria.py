@@ -29,3 +29,9 @@ class Bicicleta:
 
 b2 = Bicicleta("Monark", "Speed", 2020, "Azul", 1200)
 print(b2)
+
+
+def __del__(self):
+     print("Bicicleta removida com sucesso!")
+
+print(b2)     
