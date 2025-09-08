@@ -1,11 +1,16 @@
 class Animal:
-    pass
+    def __init__(self, nro_patas):
+        self.nro_patas = nro_patas
 
 class Mamifero(Animal):
-    pass
+    def __init__(self, nro_patas):
+        self.nro_patas = nro_patas
+        super().__init__(nro_patas)
 
 class Ave(Animal):
-    pass
+    def __init__(self, nro_patas):
+        self.nro_patas = nro_patas
+        super().__init__(nro_patas)
 
 class Cachorro(Mamifero):
     pass
