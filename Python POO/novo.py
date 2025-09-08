@@ -25,7 +25,7 @@ class Caminhao(Veiculo):
     def __init__(self, cor, placa, numero_rodas, carregado):
         self.cor = cor
         self.placa = placa
-        self.numero_rodas = numero_rodas
+        # self.numero_rodas = numero_rodas
 
         self.carregado = carregado
     
